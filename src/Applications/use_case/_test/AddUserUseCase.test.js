@@ -41,7 +41,7 @@ describe('AddUserUseCase', () => {
     });
 
     // action
-    const registeredUser = await getUserUseCase.excute(useCasePayload);
+    const registeredUser = await getUserUseCase.execute(useCasePayload);
 
     // Assert
     expect(registeredUser).toStrictEqual(
